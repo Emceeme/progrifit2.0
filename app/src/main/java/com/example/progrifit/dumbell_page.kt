@@ -13,9 +13,9 @@ class dumbell_page : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_dumbell_page)
-         val biceps=findViewById<Button>(R.id.start_button)
+         val biceps=findViewById<Button>(R.id.start_btn)
         biceps.setOnClickListener {
-            val intent=Intent(this@dumbell_page, bicep_curl::class.java)
+            val intent=Intent(this, start_workout::class.java)
             startActivity(intent)
         }
     }
