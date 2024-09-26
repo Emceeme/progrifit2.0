@@ -16,7 +16,7 @@ class start_workout : AppCompatActivity() {
         private lateinit var nextWorkoutButton: Button
         private lateinit var finishButton: Button
 
-        private var currentWorkoutIndex = 0
+        private var currentWorkoutIndex = 3
 
         private val workouts = listOf(
             Workout("Dumbell Curls", "4", "15", "45 seconds", R.drawable._5d92c6e_a92e_4e17_8491_a6d87ccd2db0_12),

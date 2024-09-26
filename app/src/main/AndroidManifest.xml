@@ -18,22 +18,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Progrifit"
         tools:targetApi="31">
-        <service
-            android:name=".Services.LocationService"
-            android:enabled="true"
-            android:exported="true"></service>
-
         <activity
             android:name=".Start_jogging"
             android:exported="false" />
         <activity
             android:name=".start_workout"
-            android:exported="false" />
-        <activity
-            android:name=".lateral"
-            android:exported="false" />
-        <activity
-            android:name=".bicep_curl"
             android:exported="false" />
         <activity
             android:name=".dumbell_page"
