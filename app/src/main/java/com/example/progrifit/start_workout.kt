@@ -14,7 +14,6 @@ import androidx.core.view.WindowInsetsCompat
 class start_workout : AppCompatActivity() {
 
         private lateinit var nextWorkoutButton: Button
-        private lateinit var finishButton: Button
 
         private var currentWorkoutIndex = 0
 
@@ -35,27 +34,12 @@ class start_workout : AppCompatActivity() {
         setContentView(R.layout.activity_start_workout)
 
         nextWorkoutButton = findViewById(R.id.nexwork_btn)
-        finishButton = findViewById(R.id.finish_btn)
 
         updateWorkoutDisplay()
 
         nextWorkoutButton.setOnClickListener {
-            currentWorkoutIndex++
-
-            if (currentWorkoutIndex < workouts.size) {
-                updateWorkoutDisplay()
-            } else {
-                // Disable the Next button since there are no more workouts
-                nextWorkoutButton.isEnabled = false
-                finishButton.visibility = View.VISIBLE // Show Finish button
-            }
-        }
-
-        finishButton.setOnClickListener {
-            // Navigate back to the workout page
-            val intent = Intent(this, workout_page::class.java)
-            startActivity(intent)
-            finish() // Optional: finish this activity if you don't want to return to it
+            currentWorkoutIndex = (currentWorkoutIndex + 1) % workouts.size
+            updateWorkoutDisplay()
         }
     }
 

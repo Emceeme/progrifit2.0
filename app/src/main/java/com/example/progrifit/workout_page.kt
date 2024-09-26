@@ -21,7 +21,7 @@ class workout_page : AppCompatActivity() {
         }
         val muscle=findViewById<Button>(R.id.muscle_gain_btn)
         muscle.setOnClickListener {
-            val intent= Intent(this@workout_page,Muscle_page::class.java)
+            val intent= Intent(this@workout_page,dumbell_page::class.java)
             startActivity(intent)
         }
         val Core=findViewById<Button>(R.id.core_training_btn)

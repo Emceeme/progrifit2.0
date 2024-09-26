@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Core_start">
+
+        <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <!-- Workout 1 -->
+                <ImageView
+                        android:layout_width="212dp"
+                        android:layout_height="398dp"
+                        android:background="@drawable/negative_push_up_step_2_1024x797"
+                        android:id="@+id/imageView1"/>
+                <TextView
+                        android:id="@+id/workoutNameTextView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Workout 1: Push Up"
+                        android:textSize="24sp"
+                        android:layout_marginTop="16dp"/>
+
+                <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp">
+
+                    <TableRow>
+                        <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:padding="8dp"
+                                android:text="Sets"
+                                android:textStyle="bold"/>
+                        <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:padding="8dp"
+                                android:text="Reps"
+                                android:textStyle="bold"/>
+                        <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:padding="8dp"
+                                android:text="Rest"
+                                android:textStyle="bold"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                                android:id="@+id/setsTextView1"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:padding="8dp"
+                                android:text="4"/>
+                        <TextView
+                                android:id="@+id/repsTextView1"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:padding="8dp"
+                                android:text="10"/>
+                        <TextView
+                                android:id="@+id/restTextView1"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:padding="8dp"
+                                android:text="60 seconds"/>
+                    </TableRow>
+                </TableLayout>
+
+                <!-- Workout 2 -->
+                <ImageView
+                        android:layout_width="212dp"
+                        android:layout_height="398dp"
+                        android:background="@drawable/janda_sit_up"
+                        android:id="@+id/imageView2"/>
+                <TextView
+                        android:id="@+id/workoutNameTextView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Workout 2: Sit Up"
+                        android:textSize="24sp"
+                        android:layout_marginTop="16dp"/>
+
+                <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp">
+
+                    <TableRow>
+                        <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:padding="8dp"
+                                android:text="Sets"
+                                android:textStyle="bold"/>
+                        <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:padding="8dp"
+                                android:text="Reps"
+                                android:textStyle="bold"/>
+                        <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:padding="8dp"
+                                android:text="Rest"
+                                android:textStyle="bold"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                                android:id="@+id/setsTextView2"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:padding="8dp"
+                                android:text="3"/>
+                        <TextView
+                                android:id="@+id/repsTextView2"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:padding="8dp"
+                                android:text="15"/>
+                        <TextView
+                                android:id="@+id/restTextView2"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:padding="8dp"
+                                android:text="30 seconds"/>
+                    </TableRow>
+                </TableLayout>
+
+                <!-- Workout 3 -->
+                <ImageView
+                        android:layout_width="212dp"
+                        android:layout_height="398dp"
+                        android:background="@drawable/mountainclimbers"
+                        android:id="@+id/imageView3"/>
+
+                <TextView
+                        android:id="@+id/workoutNameTextView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Workout 3: Mountain Climb"
+                        android:textSize="24sp"
+                        android:layout_marginTop="16dp"/>
+
+                <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp">
+
+                    <TableRow>
+                        <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:padding="8dp"
+                                android:text="Sets"
+                                android:textStyle="bold"/>
+                        <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:padding="8dp"
+                                android:text="Reps"
+                                android:textStyle="bold"/>
+                        <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:padding="8dp"
+                                android:text="Rest"
+                                android:textStyle="bold"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                                android:id="@+id/setsTextView3"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:padding="8dp"
+                                android:text="3"/>
+                        <TextView
+                                android:id="@+id/repsTextView3"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:padding="8dp"
+                                android:text="20"/>
+                        <TextView
+                                android:id="@+id/restTextView3"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:padding="8dp"
+                                android:text="30 seconds"/>
+                    </TableRow>
+                </TableLayout>
+
+                <!-- Workout 4 -->
+                <ImageView
+                        android:layout_width="212dp"
+                        android:layout_height="398dp"
+                        android:background="@drawable/crunch_straight_leg_up"
+                        android:id="@+id/imageView4"/>
+
+                <TextView
+                        android:id="@+id/workoutNameTextView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Workout 4: Sitting Crunch"
+                        android:textSize="24sp"
+                        android:layout_marginTop="16dp"/>
+
+                <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp">
+
+                    <TableRow>
+                        <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:padding="8dp"
+                                android:text="Sets"
+                                android:textStyle="bold"/>
+                        <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:padding="8dp"
+                                android:text="Reps"
+                                android:textStyle="bold"/>
+                        <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:padding="8dp"
+                                android:text="Rest"
+                                android:textStyle="bold"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                                android:id="@+id/setsTextView4"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:padding="8dp"
+                                android:text="3"/>
+                        <TextView
+                                android:id="@+id/repsTextView4"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:padding="8dp"
+                                android:text="15"/>
+                        <TextView
+                                android:id="@+id/restTextView4"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:padding="8dp"
+                                android:text="30 seconds"/>
+                    </TableRow>
+                </TableLayout>
+
+                <!-- Workout 5 -->
+                <ImageView
+                        android:layout_width="212dp"
+                        android:layout_height="398dp"
+                        android:background="@drawable/plank_muscles_worked"
+                        android:id="@+id/imageView5"/>
+
+                <TextView
+                        android:id="@+id/workoutNameTextView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Workout 5: Plank"
+                        android:textSize="24sp"
+                        android:layout_marginTop="16dp"/>
+
+                <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp">
+
+                    <TableRow>
+                        <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:padding="8dp"
+                                android:text="Sets"
+                                android:textStyle="bold"/>
+                        <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:padding="8dp"
+                                android:text="Reps"
+                                android:textStyle="bold"/>
+                        <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:padding="8dp"
+                                android:text="Rest"
+                                android:textStyle="bold"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                                android:id="@+id/setsTextView5"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:padding="8dp"
+                                android:text="3"/>
+                        <TextView
+                                android:id="@+id/repsTextView5"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:padding="8dp"
+                                android:text="30 seconds"/>
+                        <TextView
+                                android:id="@+id/restTextView5"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:padding="8dp"
+                                android:text="30 seconds"/>
+                    </TableRow>
+                </TableLayout>
+
+                <!-- Workout 6 -->
+                <ImageView
+                        android:layout_width="212dp"
+                        android:layout_height="398dp"
+                        android:background="@drawable/bicycle_exercise"
+                        android:id="@+id/imageView6"/>
+
+                <TextView
+                        android:id="@+id/workoutNameTextView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Workout 6: Bicycle Crunch"
+                        android:textSize="24sp"
+                        android:layout_marginTop="16dp"/>
+
+                <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp">
+
+                    <TableRow>
+                        <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:padding="8dp"
+                                android:text="Sets"
+                                android:textStyle="bold"/>
+                        <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:padding="8dp"
+                                android:text="Reps"
+                                android:textStyle="bold"/>
+                        <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:padding="8dp"
+                                android:text="Rest"
+                                android:textStyle="bold"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                                android:id="@+id/setsTextView6"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:padding="8dp"
+                                android:text="3"/>
+                        <TextView
+                                android:id="@+id/repsTextView6"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:padding="8dp"
+                                android:text="15"/>
+                        <TextView
+                                android:id="@+id/restTextView6"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:padding="8dp"
+                                android:text="30 seconds"/>
+                    </TableRow>
+                </TableLayout>
+
+                <!-- Navigation Buttons -->
+                <Button
+                        android:id="@+id/nextworkout_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Next"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="16dp"/>
+                <Button
+                        android:id="@+id/done_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Finish"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="16dp"
+                        android:visibility="gone"/>
+            </LinearLayout>
+        </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

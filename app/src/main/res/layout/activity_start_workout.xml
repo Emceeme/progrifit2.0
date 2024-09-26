@@ -18,7 +18,6 @@
                 android:orientation="vertical">
 
             <!-- Workout 1 -->
-
             <ImageView
                     android:layout_width="221dp"
                     android:layout_height="398dp"
@@ -80,13 +79,12 @@
                 </TableRow>
             </TableLayout>
 
-            <!--workout 2-->
+            <!-- Workout 2 -->
             <ImageView
                     android:layout_width="212dp"
                     android:layout_height="398dp"
                     android:background="@drawable/dumbbell_lateral_raises"
-                    android:id="@+id/imageView2"
-            />
+                    android:id="@+id/imageView2"/>
             <TextView
                     android:id="@+id/workoutNameTextView2"
                     android:layout_width="wrap_content"
@@ -97,49 +95,50 @@
             <TableLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="16dp"/>
+                    android:padding="16dp">
 
-            <TableRow>
-                <TextView
-                        android:layout_width="0dp"
-                        android:layout_weight="1"
-                        android:padding="8dp"
-                        android:text="Sets"
-                        android:textStyle="bold"/>
-                <TextView
-                        android:layout_width="0dp"
-                        android:layout_weight="1"
-                        android:padding="8dp"
-                        android:text="Reps"
-                        android:textStyle="bold"/>
-                <TextView
-                        android:layout_width="0dp"
-                        android:layout_weight="1"
-                        android:padding="8dp"
-                        android:text="Rest"
-                        android:textStyle="bold"/>
-            </TableRow>
+                <TableRow>
+                    <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:padding="8dp"
+                            android:text="Sets"
+                            android:textStyle="bold"/>
+                    <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:padding="8dp"
+                            android:text="Reps"
+                            android:textStyle="bold"/>
+                    <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:padding="8dp"
+                            android:text="Rest"
+                            android:textStyle="bold"/>
+                </TableRow>
 
-            <TableRow>
-                <TextView
-                        android:id="@+id/setsTextView2"
-                        android:layout_width="0dp"
-                        android:layout_weight="1"
-                        android:padding="8dp"
-                        android:text="3"/>
-                <TextView
-                        android:id="@+id/repsTextView2"
-                        android:layout_width="0dp"
-                        android:layout_weight="1"
-                        android:padding="8dp"
-                        android:text="12"/>
-                <TextView
-                        android:id="@+id/restTextView2"
-                        android:layout_width="0dp"
-                        android:layout_weight="1"
-                        android:padding="8dp"
-                        android:text="30 seconds"/>
-            </TableRow>
+                <TableRow>
+                    <TextView
+                            android:id="@+id/setsTextView2"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:padding="8dp"
+                            android:text="3"/>
+                    <TextView
+                            android:id="@+id/repsTextView2"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:padding="8dp"
+                            android:text="12"/>
+                    <TextView
+                            android:id="@+id/restTextView2"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:padding="8dp"
+                            android:text="30 seconds"/>
+                </TableRow>
+            </TableLayout>
 
             <!-- Workout 3 -->
             <ImageView
@@ -159,8 +158,7 @@
             <TableLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="16dp"
-            />
+                    android:padding="16dp">
 
                 <TableRow>
                     <TextView
@@ -203,6 +201,7 @@
                             android:padding="8dp"
                             android:text="30 seconds"/>
                 </TableRow>
+            </TableLayout>
 
             <!-- Workout 4 -->
             <ImageView
@@ -215,7 +214,7 @@
                     android:id="@+id/workoutNameTextView4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Workout 4: Incline bench press"
+                    android:text="Workout 4: Incline Bench Press"
                     android:textSize="24sp"
                     android:layout_marginTop="16dp"/>
 
@@ -266,6 +265,7 @@
                             android:text="30 seconds"/>
                 </TableRow>
             </TableLayout>
+
             <!-- Workout 5 -->
             <ImageView
                     android:layout_width="212dp"
@@ -327,24 +327,87 @@
                             android:padding="8dp"
                             android:text="30 seconds"/>
                 </TableRow>
-                <Button
-                        android:id="@+id/nexwork_btn"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Next"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="16dp"/>
-                <Button
-                        android:id="@+id/finish_btn"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Finish"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="16dp"
-                        android:visibility="gone"/>
             </TableLayout>
 
+            <!-- Workout 6 -->
+            <ImageView
+                    android:layout_width="212dp"
+                    android:layout_height="398dp"
+                    android:background="@drawable/cable_pullover_muscles_worked_750x562"
+                    android:id="@+id/imageView6"/>
 
+            <TextView
+                    android:id="@+id/workoutNameTextView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Workout 6: Cable Pull"
+                    android:textSize="24sp"
+                    android:layout_marginTop="16dp"/>
+
+            <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                <TableRow>
+                    <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:padding="8dp"
+                            android:text="Sets"
+                            android:textStyle="bold"/>
+                    <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:padding="8dp"
+                            android:text="Reps"
+                            android:textStyle="bold"/>
+                    <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:padding="8dp"
+                            android:text="Rest"
+                            android:textStyle="bold"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                            android:id="@+id/setsTextView6"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:padding="8dp"
+                            android:text="3"/>
+                    <TextView
+                            android:id="@+id/repsTextView6"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:padding="8dp"
+                            android:text="12"/>
+                    <TextView
+                            android:id="@+id/restTextView6"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:padding="8dp"
+                            android:text="30 seconds"/>
+                </TableRow>
+            </TableLayout>
+
+            <!-- Navigation Buttons -->
+            <Button
+                    android:id="@+id/nexwork_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Next"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="16dp"/>
+            <Button
+                    android:id="@+id/finish_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Finish"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="16dp"
+                    android:visibility="gone"/>
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
